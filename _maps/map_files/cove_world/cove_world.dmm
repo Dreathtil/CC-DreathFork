@@ -14706,6 +14706,12 @@
 /obj/structure/chair/bench,
 /turf/open/floor/rogue/churchmarble,
 /area/rogue/under/cave/scarymaze)
+"dnt" = (
+/obj/structure/glowshroom,
+/obj/machinery/light/rogue/hearth,
+/obj/machinery/light/rogue/hearth,
+/turf/open/water/swamp,
+/area/rogue/outdoors/bog/south)
 "dnw" = (
 /obj/structure/chair/stool/rogue,
 /turf/open/floor/rogue/dirt,
@@ -357344,7 +357350,7 @@ jYu
 eCO
 eCO
 aay
-ete
+dnt
 aay
 lCD
 lCD

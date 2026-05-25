@@ -11,7 +11,6 @@
 	var/list/excluded_turfs = list()
 	var/list/allowed_turfs = list()
 	var/list/allowed_areas = list()
-	var/list/excluded_areas = list() //Caustic Edit - Add Excluded areas option!
 	var/include_subtypes = TRUE
 
 //Syncs the module up with its mother
@@ -51,13 +50,6 @@
 		var/area/A = get_area(T)
 		if(!allowed_areas[A.type])
 			return
-	
-	//Caustic Edit - Add excluded areas option!
-	if(excluded_areas.len)
-		var/area/A = get_area(T)
-		if(excluded_areas[A.type])
-			return
-	//Caustic Edit End
 
 	//Turfs don't care whether atoms can be placed here
 	for(var/turfPath in spawnableTurfs)

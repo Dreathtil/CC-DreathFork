@@ -11,7 +11,6 @@
 	nodismemsleeves = TRUE
 	sleevetype = null
 	sleeved = null
-	salvage_amount = 2
 
 //CRAFTING
 
