@@ -841,6 +841,12 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors/inq/office)
+"asa" = (
+/obj/structure/flora/roguegrass/water/reeds,
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/outdoors/desert/river)
 "asb" = (
 /obj/structure/mineral_door/wood/window{
 	locked = 1;
@@ -9449,11 +9455,9 @@
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/church)
 "dDV" = (
-/obj/structure/flora/roguegrass/herb/random,
-/turf/open/floor/rogue/grass{
-	icon = 'modular_deserttown/icons/desertfloor.dmi'
-	},
-/area/rogue/outdoors/desert/river)
+/obj/structure/flora/roguegrass/water/reeds,
+/turf/open/water/cleanshallow,
+/area/rogue/under/cave)
 "dEc" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -37869,6 +37873,10 @@
 /obj/structure/fermentation_keg/sandpot,
 /turf/open/floor/rogue/citybrick/citybrick1,
 /area/rogue/under/town/basement/desert)
+"oYK" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/rogue/desert_grass,
+/area/rogue/outdoors/desert/above)
 "oYS" = (
 /obj/structure/roguemachine/scomm,
 /obj/effect/decal/cobbleedge{
@@ -42995,6 +43003,9 @@
 "rai" = (
 /turf/open/floor/rogue/darkpath,
 /area/rogue/indoors/inq/basement)
+"ral" = (
+/turf/open/floor/rogue/dirt/desert,
+/area/rogue/outdoors/desert/above)
 "ram" = (
 /obj/structure/closet/crate/roguecloset,
 /turf/open/floor/rogue/wood,
@@ -44258,6 +44269,10 @@
 /obj/item/cushion/desert2,
 /turf/open/floor/rogue/deserttile,
 /area/rogue/under/town/basement/desert/town)
+"rAO" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/rogue/dirt/desert,
+/area/rogue/outdoors/desert/above)
 "rBa" = (
 /obj/structure/table/wood,
 /obj/structure/bars{
@@ -50402,6 +50417,10 @@
 	icon = 'modular_deserttown/icons/alt/roguefloor.dmi'
 	},
 /area/rogue/indoors/town/desert/manor)
+"tUE" = (
+/obj/structure/roguemachine/mossmother/travel,
+/turf/open/floor/rogue/dirt/desert,
+/area/rogue/outdoors/desert/above)
 "tUF" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 4
@@ -57242,6 +57261,10 @@
 	},
 /turf/open/transparent/openspace,
 /area/rogue/outdoors/desertdeep/above)
+"wBt" = (
+/obj/structure/flora/roguegrass/water/reeds,
+/turf/open/floor/rogue/desert_grass,
+/area/rogue/outdoors/desert/river)
 "wBz" = (
 /obj/structure/mineral_door/wood/donjon{
 	dir = 8;
@@ -256608,13 +256631,13 @@ wPj
 wPj
 wPj
 bEs
-bEs
+dDV
 ngp
 bEs
 bEs
-bEs
+dDV
 kvr
-sEF
+jYs
 sEF
 sEF
 sEF
@@ -256925,8 +256948,8 @@ rdx
 rdx
 jof
 bEs
-bEs
-sEF
+dDV
+jYs
 sEF
 sEF
 sEF
@@ -257238,9 +257261,9 @@ rdx
 jof
 jof
 bEs
+jYs
 sEF
-sEF
-sEF
+jYs
 sEF
 sEF
 sEF
@@ -257542,7 +257565,7 @@ wPj
 wPj
 wPj
 wPj
-bEs
+dDV
 bEs
 rdx
 rdx
@@ -257550,7 +257573,7 @@ rdx
 jof
 bEs
 bEs
-sEF
+jYs
 sEF
 sEF
 sEF
@@ -257860,10 +257883,10 @@ bEs
 rdx
 ngp
 bEs
-bEs
+dDV
 kvr
 sEF
-sEF
+jYs
 sEF
 sEF
 sEF
@@ -258170,12 +258193,12 @@ wPj
 wPj
 bEs
 bEs
-bEs
+dDV
 bEs
 kvr
 kvr
 sEF
-sEF
+jYs
 sEF
 sEF
 sEF
@@ -415406,8 +415429,8 @@ rSz
 rSz
 bwf
 rSz
-ydN
-ydN
+wBt
+rSz
 ydN
 ydN
 ydN
@@ -415710,17 +415733,17 @@ kLV
 rSz
 fCW
 fCW
+rSz
+rSz
+rSz
+rSz
+rSz
+rSz
+rSz
+wBt
+rSz
 foO
-foO
-rSz
-rSz
-rSz
-rSz
-rSz
-ydN
-ydN
-ydN
-ydN
+asa
 ydN
 ydN
 ydN
@@ -416018,22 +416041,22 @@ kLV
 jOM
 kLV
 kLV
+fCW
 rSz
+rSz
+rSz
+rSz
+bwf
+rSz
+rSz
+rSz
+rSz
+wBt
 rSz
 foO
-jSS
 foO
-dDV
-rSz
-rSz
-rSz
-rSz
-ydN
-ydN
-ydN
-ydN
-ydN
-ydN
+foO
+asa
 ydN
 ydN
 ydN
@@ -416328,24 +416351,24 @@ kLV
 kLV
 kLV
 jOM
-rSz
+fCW
 rSz
 bwf
 oAn
 rSz
-foO
-foO
+rSz
+rSz
 rSz
 wgO
 oAn
 ydN
 ydN
-ydN
-ydN
-ydN
-ydN
-ydN
-ydN
+rSz
+foO
+jSS
+foO
+foO
+foO
 ydN
 ydN
 ydN
@@ -416653,11 +416676,11 @@ ydN
 ydN
 ydN
 ydN
-ydN
-ydN
-ydN
-ydN
-ydN
+asa
+foO
+foO
+foO
+asa
 ydN
 ydN
 ydN
@@ -416966,9 +416989,9 @@ ydN
 ydN
 ydN
 ydN
-ydN
-ydN
-ydN
+foO
+asa
+foO
 ydN
 ydN
 ydN
@@ -563188,8 +563211,8 @@ dct
 cVo
 cVo
 cVo
-dct
-dct
+cVo
+cVo
 dct
 dct
 dct
@@ -563500,9 +563523,9 @@ cVo
 cVo
 cVo
 dct
-dct
-dct
-dct
+cVo
+cVo
+cVo
 dct
 dct
 dct
@@ -563813,9 +563836,9 @@ cVo
 dct
 dct
 dct
-dct
-dct
-dct
+cVo
+cVo
+cVo
 dct
 dct
 dct
@@ -564126,9 +564149,9 @@ dct
 dct
 dct
 dct
-dct
-dct
-dct
+cVo
+cVo
+cVo
 dct
 kFh
 kFh
@@ -564439,10 +564462,10 @@ dct
 dct
 dct
 dct
-dct
-dct
-kFh
-kFh
+cVo
+cVo
+cVo
+cVo
 kFh
 kFh
 kFh
@@ -564752,10 +564775,10 @@ dct
 dct
 dct
 kFh
-kFh
-kFh
-kFh
-kFh
+cVo
+cVo
+cVo
+cVo
 kFh
 kFh
 kFh
@@ -565065,9 +565088,9 @@ dct
 kFh
 kFh
 kFh
-kFh
-kFh
-dct
+cVo
+cVo
+cVo
 dct
 dct
 kFh
@@ -565378,8 +565401,8 @@ kFh
 kFh
 kFh
 dct
-dct
-dct
+cVo
+cVo
 dct
 dct
 dct
@@ -565690,8 +565713,8 @@ kFh
 kFh
 dct
 dct
-dct
-dct
+cVo
+cVo
 dct
 dct
 dct
@@ -566002,8 +566025,8 @@ kFh
 kFh
 dct
 dct
-dct
-dct
+cVo
+cVo
 dct
 dct
 dct
@@ -566314,8 +566337,8 @@ kFh
 kFh
 dct
 dct
-dct
-dct
+qbE
+qbE
 dct
 dct
 dct
@@ -566626,8 +566649,8 @@ kFh
 dct
 dct
 dct
-dct
-dct
+qbE
+oYK
 dct
 dct
 dct
@@ -566937,10 +566960,10 @@ kFh
 kFh
 dct
 dct
-dct
-dct
-dct
-dct
+qbE
+ral
+qbE
+qbE
 dct
 dct
 kFh
@@ -567248,12 +567271,12 @@ kFh
 kFh
 kFh
 dct
-dct
-dct
-dct
-dct
-dct
-dct
+oYK
+ral
+ral
+ral
+ral
+oYK
 dct
 dct
 kFh
@@ -567561,10 +567584,10 @@ kFh
 kFh
 dct
 dct
-dct
-dct
-dct
-dct
+qbE
+tUE
+ral
+qbE
 dct
 dct
 dct
@@ -567872,12 +567895,12 @@ dct
 kFh
 kFh
 dct
-dct
-dct
-dct
-dct
-dct
-dct
+qbE
+rAO
+ral
+ral
+ral
+qbE
 dct
 dct
 kFh
@@ -568184,12 +568207,12 @@ dct
 kFh
 kFh
 dct
-dct
-dct
-dct
-dct
-dct
-dct
+qbE
+ral
+ral
+ral
+oYK
+qbE
 dct
 dct
 kFh
@@ -568497,10 +568520,10 @@ kFh
 kFh
 dct
 dct
-dct
-dct
-dct
-dct
+qbE
+qbE
+oYK
+qbE
 dct
 dct
 dct
@@ -568810,7 +568833,7 @@ kFh
 dct
 dct
 dct
-dct
+qbE
 dct
 dct
 dct
