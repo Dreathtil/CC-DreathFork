@@ -4111,6 +4111,9 @@
 	icon = 'modular_deserttown/icons/alt/roguefloor.dmi'
 	},
 /area/rogue/indoors/town/desert/warden)
+"bEs" = (
+/turf/open/water/cleanshallow,
+/area/rogue/under/cave)
 "bEu" = (
 /obj/machinery/light/rogue/hearth,
 /obj/item/reagent_containers/glass/bucket/pot,
@@ -9445,6 +9448,12 @@
 /obj/effect/spawner/lootdrop/valuable_candle_spawner,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/church)
+"dDV" = (
+/obj/structure/flora/roguegrass/herb/random,
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/outdoors/desert/river)
 "dEc" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -12889,6 +12898,10 @@
 	},
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/desert/manor)
+"eSO" = (
+/obj/structure/roguemachine/mossmother/travel,
+/turf/open/floor/rogue/dirt/desert,
+/area/rogue/under/cavewet)
 "eSR" = (
 /obj/structure/stairs{
 	dir = 1
@@ -13872,6 +13885,11 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/outdoors/town/roofs/desert)
+"foO" = (
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/outdoors/desert/river)
 "foV" = (
 /obj/machinery/light/rogue/candle/off/r,
 /turf/open/floor/rogue/tile/harem,
@@ -23337,6 +23355,9 @@
 "jnZ" = (
 /turf/open/floor/rogue/dirt,
 /area/rogue/indoors/town/bath/desert)
+"jof" = (
+/turf/open/floor/rogue/desert_grass,
+/area/rogue/under/cave)
 "jom" = (
 /obj/machinery/light/roguestreet/orange/walllamp,
 /turf/open/floor/rogue/tile/harem1,
@@ -24965,6 +24986,12 @@
 /obj/item/cushion/desert2,
 /turf/open/floor/carpet/red,
 /area/rogue/under/town/basement/desert/town)
+"jSS" = (
+/obj/structure/roguemachine/mossmother/travel,
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/outdoors/desert/river)
 "jTa" = (
 /obj/structure/mineral_door/wood/fancywood{
 	locked = 1;
@@ -27359,6 +27386,12 @@
 "kSq" = (
 /turf/open/floor/rogue/sandbrick,
 /area/rogue/indoors/town/magician/desert)
+"kSw" = (
+/obj/structure/roguemachine/mossmother/travel,
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/under/cave)
 "kSz" = (
 /obj/structure/table/wood,
 /obj/structure/bars{
@@ -32872,6 +32905,18 @@
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/water/swamp/deep,
 /area/rogue/under/cave/rhgoblinencampment)
+"ngp" = (
+/obj/effect/wisp/prestidigitation{
+	color = "#ffff00";
+	desc = "A small, fiery ball of light made up of mystical energy.";
+	light_color = "#33ff00";
+	name = "Will-o'-the-wisp";
+	pixel_x = 0
+	},
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/under/cave)
 "ngt" = (
 /obj/structure/chair/wood/rogue{
 	dir = 4
@@ -38878,6 +38923,12 @@
 	},
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors/town/church/basement)
+"puY" = (
+/obj/structure/flora/roguegrass,
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/outdoors/desertdeep)
 "pvb" = (
 /obj/machinery/light/rogue/candle/blue,
 /obj/structure/closet/crate/chest{
@@ -43080,6 +43131,11 @@
 /obj/machinery/light/rogue/candle/r,
 /turf/open/floor/rogue/woodturned,
 /area/rogue/indoors/town/tavern/desert)
+"rdx" = (
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/under/cave)
 "rdE" = (
 /obj/machinery/light/rogue/candle,
 /obj/structure/fluff/railing/border{
@@ -43991,6 +44047,11 @@
 	},
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/desert/manor)
+"rwL" = (
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/outdoors/desertdeep)
 "rwS" = (
 /obj/effect/decal/cleanable/dirt/cobweb,
 /obj/structure/fermentation_keg/sandpot/water,
@@ -58238,6 +58299,13 @@
 /obj/item/candle/yellow,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/town/desert/quest)
+"wXB" = (
+/obj/structure/flora/roguegrass,
+/obj/structure/roguemachine/mossmother/travel,
+/turf/open/floor/rogue/grass{
+	icon = 'modular_deserttown/icons/desertfloor.dmi'
+	},
+/area/rogue/outdoors/desertdeep)
 "wXJ" = (
 /obj/structure/lever{
 	redstone_id = "dungeonpit"
@@ -197648,7 +197716,7 @@ wXp
 piX
 fGu
 uLv
-fGu
+piX
 hNq
 gRp
 gRp
@@ -197961,7 +198029,7 @@ gRp
 wXp
 fGu
 fGu
-piX
+fGu
 hNq
 wXp
 wXp
@@ -198272,7 +198340,7 @@ wXp
 wXp
 wXp
 wXp
-wXp
+eSO
 uLv
 wXp
 wXp
@@ -256228,9 +256296,9 @@ wPj
 wPj
 wPj
 wPj
-wPj
-wPj
-wPj
+bEs
+bEs
+bEs
 wPj
 kvr
 kvr
@@ -256539,12 +256607,12 @@ wPj
 wPj
 wPj
 wPj
-wPj
-wPj
-wPj
-wPj
-wPj
-kvr
+bEs
+bEs
+ngp
+bEs
+bEs
+bEs
 kvr
 sEF
 sEF
@@ -256850,14 +256918,14 @@ wPj
 wPj
 wPj
 wPj
-wPj
-wPj
-wPj
-wPj
-wPj
-wPj
-kvr
-kvr
+bEs
+bEs
+rdx
+rdx
+rdx
+jof
+bEs
+bEs
 sEF
 sEF
 sEF
@@ -257162,14 +257230,14 @@ wPj
 wPj
 wPj
 wPj
-wPj
-wPj
-wPj
-wPj
-wPj
-wPj
-kvr
-kvr
+bEs
+ngp
+kSw
+rdx
+rdx
+jof
+jof
+bEs
 sEF
 sEF
 sEF
@@ -257474,14 +257542,14 @@ wPj
 wPj
 wPj
 wPj
-wPj
-wPj
-wPj
-wPj
-wPj
-wPj
-kvr
-kvr
+bEs
+bEs
+rdx
+rdx
+rdx
+jof
+bEs
+bEs
 sEF
 sEF
 sEF
@@ -257787,12 +257855,12 @@ wPj
 wPj
 wPj
 wPj
-wPj
-wPj
-wPj
-wPj
-wPj
-kvr
+bEs
+bEs
+rdx
+ngp
+bEs
+bEs
 kvr
 sEF
 sEF
@@ -258100,10 +258168,10 @@ wPj
 wPj
 wPj
 wPj
-wPj
-wPj
-wPj
-wPj
+bEs
+bEs
+bEs
+bEs
 kvr
 kvr
 sEF
@@ -306545,8 +306613,8 @@ sOn
 sOn
 sOn
 cpe
-mzU
-eWR
+puY
+rwL
 eWR
 eWR
 sOn
@@ -306854,10 +306922,10 @@ eWR
 sOn
 sOn
 eWR
+rwL
 eWR
-eWR
-low
-eWR
+rwL
+rwL
 sOn
 sOn
 eWR
@@ -307167,9 +307235,9 @@ mzU
 eWR
 sOn
 eWR
-mzU
-eWR
-eWR
+wXB
+rwL
+rwL
 sOn
 sOn
 sOn
@@ -307480,9 +307548,9 @@ eWR
 scE
 scE
 eWR
-eWR
-eWR
-eWR
+rwL
+rwL
+rwL
 eWR
 eWR
 eWR
@@ -307793,7 +307861,7 @@ cpe
 scE
 scE
 sOn
-eWR
+rwL
 eWR
 mzU
 eWR
@@ -415642,8 +415710,8 @@ kLV
 rSz
 fCW
 fCW
-rSz
-rSz
+foO
+foO
 rSz
 rSz
 rSz
@@ -415952,10 +416020,10 @@ kLV
 kLV
 rSz
 rSz
-rSz
-rSz
-rSz
-bwf
+foO
+jSS
+foO
+dDV
 rSz
 rSz
 rSz
@@ -416265,8 +416333,8 @@ rSz
 bwf
 oAn
 rSz
-rSz
-rSz
+foO
+foO
 rSz
 wgO
 oAn
