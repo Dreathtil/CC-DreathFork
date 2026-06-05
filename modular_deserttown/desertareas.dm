@@ -480,6 +480,11 @@
 	first_time_text = "The Condemned Pyramid"
 	deathsight_message = "a sunken pyramid"
 
+/area/rogue/under/underdarker/drow_grotto
+	name = "Twisted Oasis"
+	first_time_text = "Twisted Oasis"
+	deathsight_message = "unnatural grass"
+
 // desert_wretch_oasis Special Areas. Bandit zone uses areas earlier in code
 /area/rogue/indoors/vampire_manor/desert 
 	name = "Vampire Hideaway"
