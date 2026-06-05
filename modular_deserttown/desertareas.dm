@@ -468,3 +468,35 @@
 
 /area/rogue/underworld/desert
 	first_time_text = "wayfarer's dream"
+
+// Undercity And Pyramid Segments - All of these use underdarker from roguetownareas.dm for now since they share the same level with it
+/area/rogue/under/underdarker/undercity
+	name = "City Beneath The Sands"
+	first_time_text = "City Beneath The Sands"
+	deathsight_message = "dark roads under the sands"
+
+/area/rogue/under/underdarker/pyramid
+	name = "The Condemned Pyramid"	
+	first_time_text = "The Condemned Pyramid"
+	deathsight_message = "a sunken pyramid"
+
+/area/rogue/under/underdarker/drow_grotto
+	name = "Twisted Oasis"
+	first_time_text = "Twisted Oasis"
+	deathsight_message = "unnatural grass"
+
+// desert_wretch_oasis Special Areas. Bandit zone uses areas earlier in code
+/area/rogue/indoors/vampire_manor/desert 
+	name = "Vampire Hideaway"
+	first_time_text = "Vampire Hideaway"
+	deathsight_message = "a sunless hideaway"
+
+/area/rogue/indoors/vampire_manor/desert/passage
+	name = "Depths of the Passage"
+	deathsight_message = "at the entrance to a sunless escape"
+
+/area/rogue/outdoors/desertdeep/wretch_lair
+	name = "Wretched Oasis"
+	ambush_times = null 
+	ambush_mobs = null 
+	deathsight_message = "a paradise under a wretched presence"
